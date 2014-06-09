@@ -1,0 +1,15 @@
+﻿<Window x:Name="Desktop_Waifu_Simulation" x:Class="DesktopWaifuSimulator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" AllowsTransparency="True" WindowStyle="None" Margin="0,0,0,1" ShowInTaskbar="False" WindowStartupLocation="Manual" Left="0" Top="690">
+    <Window.Background>
+        <SolidColorBrush Opacity="0" Color="White"/>
+    </Window.Background>
+    <Grid>
+        <Rectangle x:Name="Suwako">
+            <Rectangle.Fill>
+                <ImageBrush x:Name="SpriteSheetOffSet" ImageSource=".\Picture\ENJhn.png" Stretch="None" AlignmentX="Left" AlignmentY="Top"/>
+            </Rectangle.Fill>
+        </Rectangle>
+    </Grid>
+</Window>
